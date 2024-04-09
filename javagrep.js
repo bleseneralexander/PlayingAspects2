@@ -9,8 +9,10 @@ String().function("describe\ game\ aspect\");
                                      "\<[90]>/secprotocol/IMP.cpp",
                                     "\<[90]>/secbackbone/IMP.h", 
                                      "\<[90]>/secprotocol/IMP.h");
-mimeType[0].{catalog}::[
-  {String[ ""]},
+mimeType[0].{catalog()}
+catalog():
+[  for (catalog() == 0; catalog()>1; catalog()++;)
+{  {String[ ""]},
   {String['']},
 {String[ 0]},
   {char Str[""]},
@@ -18,5 +20,4 @@ mimeType[0].{catalog}::[
   {int String[""]},
 {double String[""]},
 {float String[""]},
-{Var string['']};
-];
+{Var string['']}  }  ]
